@@ -8,7 +8,7 @@ if [ "$(grep -Ei 'debian|buntu|mint' /etc/*release)" ]; then
     echo "Installing python development tools..."
     sudo apt-get install python python-dev
 else
-    echo "This script only supports debain based Linux distros."
+    echo "This script only supports debian based Linux distros."
     echo "Please install manually."
     exit 1
 fi
